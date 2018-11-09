@@ -48,11 +48,6 @@ bool Test::validateIsEmpty()
     list.addBack(2.8); //double trucated as expected
 
     auto v2 = list.toVector();
-    for(auto i : v2)
-    {
-        std::cout << i << ", ";
-    }
-    std::cout << "\n";
     if( v1.empty() != list.isEmpty() )
     {
         valid = false;
