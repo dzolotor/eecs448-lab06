@@ -1,0 +1,8 @@
+Purposely inserted bugs:
+
+    isEmpty() returns true when the list is not empty
+    addBack() adds to front instead of back
+    removeBack() does not remove the node from the list or decrement the list size
+    removeFront() does not remove the node from the list or decrement the list size
+
+NOTE: removeBack() and removeFront() always return false which satisfy the @return because nothing was removed
